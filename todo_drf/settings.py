@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'todo_app.urls'
+ROOT_URLCONF = 'todo_drf.urls'
 
 TEMPLATES = [
     {
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'todo_app.wsgi.application'
+WSGI_APPLICATION = 'todo_drf.wsgi.application'
 
 
 # Database
